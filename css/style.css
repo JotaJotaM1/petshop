@@ -85,7 +85,8 @@ header {
     margin-top: 40px;
 }
 
-h1, h2{
+h1,
+h2 {
     text-align: center;
     color: var(--Brown);
     font-weight: 700;
@@ -140,20 +141,20 @@ a {
     background-image: url(/img/Huesito.png);
 }
 
-.nameProduct{
+.nameProduct {
     font-size: 13px;
     font-weight: 500;
     color: var(--Brown)
-
 }
-.productPrice{
+
+.productPrice {
     font-size: 13px;
     font-weight: 700;
     color: #F0A83E;
     margin: 10px 0;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -161,12 +162,12 @@ form{
     background-color: #fafaf6;
 }
 
-label{
+label {
     color: var(--Brown);
     font-weight: 500;
 }
 
-input{
+input {
     margin-bottom: 15px;
     height: 2.5rem;
     border-radius: 0.8rem;
@@ -174,60 +175,63 @@ input{
     background-color: var(--Brown);
 }
 
-::placeholder{
+::placeholder {
     padding-left: 20px;
     color: var(--Orange);
 }
 
 .error {
     color: red;
-  }
-  .success {
-    color: white;
-  }
+}
 
-  .containButton{
+.success {
+    color: white;
+}
+
+.containButton {
     display: flex;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     gap: 10px;
-  }
+}
 
-  .reset, .submit{
+.reset,
+.submit {
     width: 10rem;
     height: 3rem;
     border-radius: 2rem;
     border-style: none;
     color: white;
-  }
+}
 
-  .reset{
+.reset {
     background-color: #8A8787;
-  }
+}
 
-  .submit{
+.submit {
     background-color: var(--Orange);
-  }
+}
 
-  .containGeneralSub{
+.containGeneralSub {
     margin-top: 40px;
-  }
+}
 
-  .containEmail, .containEmailTwo{
+.containEmail,
+.containEmailTwo {
     background-color: var(--Orange);
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-  }
+}
 
-  .textSubcr{
+.textSubcr {
     padding-left: 20px;
     color: white;
-    font-size:20px;
-  }
+    font-size: 20px;
+}
 
-  .buttoSub{
+.buttoSub {
     background-color: var(--Brown);
     color: white;
     margin-bottom: 15px;
@@ -235,30 +239,28 @@ input{
     border-radius: 0.8rem;
     border-style: none;
     margin-left: 20px;
-   border-radius: 1rem;
-  }
+    border-radius: 1rem;
+}
 
-  #emailSub{
+#emailSub {
     background-color: white;
     width: 60%;
     border-radius: 1rem;
-    
-  }
 
-  footer{
+}
+
+footer {
     background-color: var(--Brown);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .information{
+.information {
     margin: 20px 90%;
-  }
+}
 
-  .logoTwo{
+.logoTwo {
     margin-top: 40px;
-  }
-
-  
+}
