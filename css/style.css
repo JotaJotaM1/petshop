@@ -208,4 +208,57 @@ input{
   .submit{
     background-color: var(--Orange);
   }
+
+  .containGeneralSub{
+    margin-top: 40px;
+  }
+
+  .containEmail, .containEmailTwo{
+    background-color: var(--Orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .textSubcr{
+    padding-left: 20px;
+    color: white;
+    font-size:20px;
+  }
+
+  .buttoSub{
+    background-color: var(--Brown);
+    color: white;
+    margin-bottom: 15px;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    border-style: none;
+    margin-left: 20px;
+   border-radius: 1rem;
+  }
+
+  #emailSub{
+    background-color: white;
+    width: 60%;
+    border-radius: 1rem;
+    
+  }
+
+  footer{
+    background-color: var(--Brown);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information{
+    margin: 20px 90%;
+  }
+
+  .logoTwo{
+    margin-top: 40px;
+  }
+
   
