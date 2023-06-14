@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div>
+            <img src="img/Logo.png" alt="logo">
+        </div>
+        <div>
+            <img class="iconHambur" src="img/Vector.png" alt="iconHambur">
+        </div>
+    </header>
+    <section class="backImgMobile">
+        <div class="textoBackImgMobile">
+            <p class="titleOne">¡Es un placer tenerte aquí! </p>
+            <p class="text1">¡Comederos en descuento!</p>
+            <button class="buttonOne">COMEDEROS</button>
+        </div>
+    </section>
+    <main>
+        <div class="containFootprint">
+            <img src="img/huella.png" alt="footprint">
+            <h1>Productos Destacados</h1>
+        </div>
+        <nav class="containNav">
+            <ul class="listNav">
+                <li><a href="#">Comederos</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Comida</a></li>
+            </ul>
+        </nav>
+
+        <div class="containProduct">
+            <div class="product1 productSize">
+                <p class="nameProduct">Juguete Churrasquito</p>
+                <p class="productPrice">$150</p>
+            </div>
+            <div class="product2 productSize">
+                <p class="nameProduct">Comedero para perro</p>
+                <p class="productPrice">$250</p>
+            </div>
+            <div class="product3 productSize">
+                <p class="nameProduct">Juguete Huesito</p>
+                <p class="productPrice">$650</p>
+            </div>
+        </div>
+        <h2 class="titleTwo">Contáctanos</h2>
+        <form>
+            <label for="name">Nombre y Apellido</label>
+            <input type="text" id="name" placeholder="Nombre y Apellido" required>
+            <label for="email">Correo Electronico</label>
+            <input type="email" id="email" placeholder="Correo Electronico" required>
+            <label for="phone">Teléfono</label>
+            <input type="number" id="phone" oninput="validatePhoneNumber()" placeholder="Teléfono">
+            <div class="containButton">
+                <button class="reset">Resetear</button>
+                <button class="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <script src="code.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,211 @@
+@import url(/css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --Orange: #F0A83E;
+    --Brown: #3C2313;
+}
+
+header {
+    background-color: var(--Orange);
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconHambur {
+    padding-left: 100px;
+}
+
+.backImgMobile {
+    height: 440px;
+    width: 100%;
+    background-image: url(/img/mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.textoBackImgMobile {
+    height: 440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titleOne {
+    background-color: white;
+    height: 3rem;
+    width: 325px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    font-size: 23px;
+    color: var(--Brown);
+    font-weight: 400;
+}
+
+.text1 {
+    line-height: 40px;
+    text-align: right;
+    width: 85%;
+    color: var(--Brown)
+}
+
+.buttonOne {
+    background-color: var(--Orange);
+    border-style: none;
+    color: white;
+    height: 45px;
+    width: 139px;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+.titleOne,
+.text1,
+.buttonOne {
+    margin-right: 25px;
+}
+
+.containFootprint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h1, h2{
+    text-align: center;
+    color: var(--Brown);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.listNav {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+    font-size: 13px;
+
+}
+
+.containProduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.productSize {
+    height: 245px;
+    width: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.product1 {
+    background-image: url(/img/churrasquito.png);
+
+}
+
+.product2 {
+    background-image: url(/img/comedero.png);
+}
+
+.product3 {
+    background-image: url(/img/Huesito.png);
+}
+
+.nameProduct{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--Brown)
+
+}
+.productPrice{
+    font-size: 13px;
+    font-weight: 700;
+    color: #F0A83E;
+    margin: 10px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    background-color: #fafaf6;
+}
+
+label{
+    color: var(--Brown);
+    font-weight: 500;
+}
+
+input{
+    margin-bottom: 15px;
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    border-style: none;
+    background-color: var(--Brown);
+}
+
+::placeholder{
+    padding-left: 20px;
+    color: var(--Orange);
+}
+
+.error {
+    color: red;
+  }
+  .success {
+    color: white;
+  }
+
+  .containButton{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    gap: 10px;
+  }
+
+  .reset, .submit{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    border-style: none;
+    color: white;
+  }
+
+  .reset{
+    background-color: #8A8787;
+  }
+
+  .submit{
+    background-color: var(--Orange);
+  }
+  
